@@ -28,7 +28,6 @@ For process control on UNIX, we have: fork(), exit(), wait()
   3. Allocating and deallocating memory space as needed
 <br>
 <br>
-<br>
 5. **Explain the microkernel structure for operating systems.**<br>
 In the microkernel structure, many non-essential components are stripped from the kernel and instead implemented as 
 system and user-level programs. The microkernel structure must provide for a efficient means of communicating between 
