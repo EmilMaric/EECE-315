@@ -47,7 +47,6 @@ In a network with remote nodes, we can open up a pair of sockets on each end and
 <br>
 <br>
 8. **Explain how many processes (including the original process) are created in this code segment. Assume `fork()` is successful.**
-<br>
 ```c
 #include <stdio.h>
 #include <unistd.h>
