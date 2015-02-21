@@ -68,3 +68,4 @@ int main(void)
 }
 ```
 ![Process Drawing](http://i.imgur.com/VWxGykc.png)
+8 processes.
