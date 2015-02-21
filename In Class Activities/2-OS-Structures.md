@@ -39,5 +39,9 @@ Some benefits of the microkernel structure:
   * less code running in kernel-mode, thus more reliable
   * more secure
   
-Some disadvantages include:
-  * high performance overhead because of the large number of user-space to kernel-space communications that need to happen.
+  Some disadvantages include:
+    * high performance overhead because of the large number of user-space to kernel-space communications that need to happen.
+<br>
+<br>
+<br>
+6. **What are the advantages of using loadable kernel modules?**
