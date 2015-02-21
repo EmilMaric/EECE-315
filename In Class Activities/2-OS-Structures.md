@@ -45,3 +45,11 @@ Some benefits of the microkernel structure:
 <br>
 <br>
 6. **What are the advantages of using loadable kernel modules?**
+<br>
+Each module is seperate from one another, and is loaded as needed within the kernel.
+<br>
+<br>
+<br>
+7. **Name one interactive application in your preferred OS that can be used to monitor the system and to acquire information regarding process, memory usage, and such?**
+8. <br>
+Mac OS X - Activity Monitor
