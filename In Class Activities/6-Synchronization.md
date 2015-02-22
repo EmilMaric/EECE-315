@@ -34,10 +34,24 @@
 6. **Do the discussed Swap and TestAndSet algorithms satisfy all the critical section solution requirements?**
 
     They satisfy the _Mutual Exclusion_ and _Progress_ requirements, but they do not satisfy the _Bounded Waiting_ requirement because it is possible that a process/thread waits forever while other waiting processes/threads take turns acquiring the lock. We must introduce some sort of mechanism to order the processes/threads and select them in round-robin fashion so that every process/thread has a chance to acquire the lock.
-
+<br>
+<br>
+<br>
 7. **What are the two types of semaphores? What is a spinlock?**
 
-    1. **Binary Semaphores**: Values range from 0 to 1.
-    2. **Counting Semaphores**: Values have an unrestricted integer domain.
+    1. **Binary Semaphores**: Values range from 0 to 1
+    2. **Counting Semaphores**: Values have an unrestricted integer domain
     
     A type of semaphore implementation where if a process/thread is waiting to acquire a lock, it spins inside a while-loop until the lock is freed, wasting CPU cycles. They are useful in situations where a lock is expected to be released quickly because no context switch is required when the process waits on a lock.
+<br>
+<br>
+<br>
+8. **What are the four conditions that must exist for a deadlock to occur?**
+
+    1. **Mutual Exclusion**: only one process at a time can use a resource
+    2. **Hold and Wait**: a process holding at least one resource is waiting to acquire additional resources held by other processes
+    3. **No preemption**: a resource can be released only voluntarily by the process holding it, after that process has completed its task
+    4. **Circular Wait**: there exists a set `{P0, P1, ..., Pn}` of waiting processes such that `P0` is waiting for a resource that is held by `P1`, `P1` is waiting for a resource that is held by `Pn`, and `Pn` is waiting for a resource that is held by `P0`
+<br>
+<br>
+<br>
