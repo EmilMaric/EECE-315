@@ -58,7 +58,9 @@
 9. **Is deadlock a possibility in the discussed solution for the dining-philosophers problem?**
 
     Yes, all four conditions are met for a deadlock to occur. There must be an additional constraint that is added to the solution in order to prevent deadlock.
-    
+<br>
+<br>
+<br>    
 10. **Explain whether Peterson's solution is correct.**
 
     Assuming that the solution acts on two processes, then yes, Peterson's solution is correct as it satisfies all three conditions for the prevention of race conditions.
