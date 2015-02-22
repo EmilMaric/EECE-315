@@ -46,3 +46,20 @@
     
     #### RR
     Not going to do because it's trivial and subjective.
+<br>
+<br>
+<br>
+5. **What is the difference between SJF and preemptive SJF?**
+
+    With regular SJF, once a process has been scheduled for the CPU, it will execute until it's burst is over, or it voluntarily gives up the CPU. With preemptive SJF, another process can take the place of the currently executing process if it has a smaller remaining CPU burst time.
+<br>
+<br>
+<br>
+6. **What are the two types of latencies that affect the real-time scheduling performance?**
+
+    * Interrupt Latency
+    * Dispatch Latency
+<br>
+<br>
+<br>
+7. **Explain how completely fair scheduler (CFS) works in Linux.**
