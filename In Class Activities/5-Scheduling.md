@@ -30,6 +30,14 @@
 <br>
 4. **Draw the Gantt charts for the FCFS, SJF, and RR schedulers.**
 
+    | Process | Burst Time |
+    | ------- | ---------- |
+    | P1      | 10         |
+    | P2      | 29         |
+    | P3      | 3          |
+    | P4      | 7          |
+    | P5      | 12         |
+    
     #### FCFS
     ![Gantt Chart 4.1](http://i.imgur.com/09pJCGa.png)
 
