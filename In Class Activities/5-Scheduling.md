@@ -32,3 +32,9 @@
 
     #### FCFS
     ![Gantt Chart 4.1](http://i.imgur.com/09pJCGa.png)
+
+    #### SJF
+    ![Gantt Chart 4.2](http://i.imgur.com/0Tij42M.png)
+    
+    #### RR
+    Not going to do because it's trivial and subjective.
