@@ -11,3 +11,8 @@
 <br>
 <br>
 3. **Compare the two implementations of consumer-producer problem in Chapters 3 and 5.**
+
+    In Chapter 5, we introduce a `counter` variable that allows us to fill up the ring buffer to it's maximum capacity. In Chapter 3, we didn't have this variable, and therefore we were only allowed to have `BUFFER_SIZE - 1` filled entries in the ring buffer in order to distinguish between an empty and full buffer.
+<br>
+<br>
+<br>
