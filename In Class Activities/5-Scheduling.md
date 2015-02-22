@@ -63,3 +63,5 @@
 <br>
 <br>
 7. **Explain how completely fair scheduler (CFS) works in Linux.**
+    
+    It is a new scheduler that is used in Linux versions 2.6.23+. Rather than having a quantum-based scheduler that works on fixed time allotments, the CFS prioritizes based on proportion of CPU time. It always schedules the highest priority task in the highest priority class. Each runnable task is placed in a red-black tree, whose key is based on the value of it's virtual run time. Tasks that have been given less processing time have a smaller virtual run time, and are moved to the left side of the tree. The scheduler will always pick the left-most node in the tree because it has the smallest virtual run time.
