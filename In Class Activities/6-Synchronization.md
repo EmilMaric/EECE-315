@@ -34,3 +34,10 @@
 6. **Do the discussed Swap and TestAndSet algorithms satisfy all the critical section solution requirements?**
 
     They satisfy the _Mutual Exclusion_ and _Progress_ requirements, but they do not satisfy the _Bounded Waiting_ requirement because it is possible that a process/thread waits forever while other waiting processes/threads take turns acquiring the lock. We must introduce some sort of mechanism to order the processes/threads and select them in round-robin fashion so that every process/thread has a chance to acquire the lock.
+
+7. **What are the two types of semaphores? What is a spinlock?**
+
+    1. **Binary Semaphores**: Values range from 0 to 1.
+    2. **Counting Semaphores**: Values have an unrestricted integer domain.
+    
+    A type of semaphore implementation where if a process/thread is waiting to acquire a lock, it spins inside a while-loop until the lock is freed, wasting CPU cycles. They are useful in situations where a lock is expected to be released quickly because no context switch is required when the process waits on a lock.
