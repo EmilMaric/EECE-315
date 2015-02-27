@@ -1,7 +1,16 @@
 # 6 - Synchronization
 
 1. **In Linux, explain the difference between `fork()`, `sys_fork()` and `do_fork()`.**
-
+    
+    * fork() is a system call to the kernel to initate creating a new process.
+    * sys_fork() calls do_fork() and returns the PID.
+    * do_fork()
+        * creates a new process
+        * assigns a new PCB
+        * copies the PCB of the parent to the new PCB with some bit changes depending on the context.
+<br>
+<br>
+<br>
 2. **What is the difference between independent and cooperating processes? Explain two of the reasons for having cooperating processes.**
 
     Independent processes are processes that do not communicate with each other, and generally do not know of each other's existance. Cooperating processes are processes that communicate with each by sharing a logical address or sharing data through files and messages. Two possible reasons for having cooperating processes include:
