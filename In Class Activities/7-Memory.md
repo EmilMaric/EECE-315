@@ -48,4 +48,5 @@
     TLB is a hardware cache. A portion of the page table is put into the cache for quick lookup. The TLB hit rate is the percentage of times that a particular page number is found in the TLB.
 
 7. **Explain segmentation and paging used in the MMU of the Intel Processors.**
+
     IA-32 support both pure segmentation and segmentation with paging. The CPU generates logical addresses, which is given to the segmentation unit. The segmentation unit convert the logical addresses into linear addresses. The linear address is then given to the paging unit, which generates the physical address in main memory.
