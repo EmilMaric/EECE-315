@@ -39,7 +39,7 @@
 <br>
 <br>
 <br>
-7. **Why can the Optimal algorithm be used as a benchmark? What are the advantages and challenges associated with it?
+7. **Why can the Optimal algorithm be used as a benchmark? What are the advantages and challenges associated with it?**
 
     It can be used because it has the lowest page-fault rate of all algorithms and will never suffer from Beladys anomaly. The optimal algorithm requires future knowledge of when a page will be accessed, so it is not feasible to implement.
 <br>
