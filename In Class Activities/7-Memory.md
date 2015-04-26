@@ -46,6 +46,9 @@
 6. **How does TLB improve the implementation of the page table? What is the TLB hit rate?**
 
     TLB is a hardware cache. A portion of the page table is put into the cache for quick lookup. The TLB hit rate is the percentage of times that a particular page number is found in the TLB.
+<br>
+<br>
+<br>
 
 7. **Explain segmentation and paging used in the MMU of the Intel Processors.**
 
