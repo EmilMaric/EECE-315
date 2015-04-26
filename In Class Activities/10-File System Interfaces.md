@@ -15,7 +15,7 @@
 <br>
 <br>
 <br>
-3. **The operating system keeps a number of attributes for each file. Which attribute is the non-human-readable name for a file?
+3. **The operating system keeps a number of attributes for each file. Which attribute is the non-human-readable name for a file?**
 
     Indentifier
 <br>
