@@ -21,7 +21,7 @@
 <br>
 4. **Assume that the memory access time is 200 nanoseconds and the average service time for a page fault is 8 milliseconds. Calculate the effective access time when the page fault rate is 1 out of 1000.**
 
-    Effective Access Time = (1 - 0.001) x 200 + 0.001 x 8000000 = 8200 nanoseconds
+#Effective Access Time = (1 - 0.001) x 200 + 0.001 x 8000000 = 8200 nanoseconds
 
 <br>
 <br>
